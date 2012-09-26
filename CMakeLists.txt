@@ -8,7 +8,6 @@ IF(DOXYGEN_FOUND)
 	OPTION(ENABLE_DOXYGEN "Enables building of documentation with doxygen" 1)
 	IF(ENABLE_DOXYGEN)
 		ADD_SUBDIRECTORY(dox)
-{TPS_SOURCE_DIR}/Doxyfile)
 	ENDIF(ENABLE_DOXYGEN)
 ENDIF(DOXYGEN_FOUND)
 #################################
